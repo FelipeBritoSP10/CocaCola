@@ -33,7 +33,11 @@
                 <br>
             </div>
         </div>
-        
+        <ul class="icons"
+            <li><a href="#"><img src="facebook.icon.png" alt=""></a></li>
+            <li><a href="#"><img src="instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="twitter.png" alt=""</a></li>
+            </ul>
     </section>
     <style>
      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
@@ -128,7 +132,36 @@ header .navegation li a{
 .content .text a:hover{
     transform: translate(-10px);
      }
-        
+     .icons{
+         position:absolute;
+         botton:40px;
+         left:100px;
+         display:flex;
+         justify-content:center;
+         align-items:center;
+     }  
+        .icons li{
+            list-style:none;
+        }
+        .icons li a{
+            display:inline-block;
+            margin-left:45px;
+            background:#222;
+            width:50px;
+            height:50px;
+            display:flex;
+            justify-content:center;
+            border-radius:50%;
+            transition: 0.3s ease-in-out;   
+        }
+        .icons li a:hover{
+            background:#e51e2a;
+            transform:translateY(-10px);
+        }
+        .icons li a img{
+            filter:invert(1);
+            transform:scale(0.5);
+        }
     </style>
 </body>
 </html>
