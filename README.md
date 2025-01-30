@@ -1,4 +1,4 @@
-Landing Page da Coca-Cola
+## Landing Page da Coca-Cola
 
 ## 1. Visão Geral
 Esta landing page foi criada para apresentar a Coca-Cola Brasil de maneira envolvente e informativa. O objetivo é destacar as principais informações sobre produtos, novidades e redes sociais, com uma interface visualmente atraente e fácil de navegar. A página busca proporcionar uma experiência fluída ao usuário, com design responsivo e otimizado para diferentes dispositivos.
