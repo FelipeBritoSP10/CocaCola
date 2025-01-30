@@ -1,3 +1,4 @@
+/* Importando a fonte Poppins do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *{
@@ -6,7 +7,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-section{
+
+/* Estilo da seção principal */
+section {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -17,7 +20,9 @@ section{
     background: #121212;
     overflow: hidden;
 }
-.circle{
+
+/* Círculo de fundo */
+.circle {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,7 +31,9 @@ section{
     background: #e51e2a;
     clip-path: circle(50% at bottom right);
 }
- header{
+
+/* Estilo do cabeçalho */
+ header {
     position: absolute;
     top: 0;
     left: 0;
@@ -37,18 +44,25 @@ section{
     justify-content: space-between;
 }
 
-header .logo{
+/* Logo no cabeçalho */
+header .logo {
     position: relative;
     max-width: 150px;
 }
-header .navegation ul{
+
+/* Menu de navegação */
+header .navegation ul {
     position: relative;
     display: flex;
 }
-header .navegation  li{
+
+/* Estilos dos itens do menu */
+header .navegation  li {
     list-style: none;
 }
-header .navegation li a{
+
+/* Links do menu */
+header .navegation li a {
     display: inline-block;
     color: #fff;
     font-weight: 500;
@@ -56,29 +70,41 @@ header .navegation li a{
     font-size: 19px;
     margin-left: 100px;
 }
+
+/* Efeito de hover nos links */
 a:hover {
     transform:translateY(-3px);
-        }
-.content .text{
+}
+
+/* Estilo do texto principal */
+.content .text {
     position: relative;
     max-width: 600px;
     margin-right: 20px;
 }
-.content .text h2{
+
+/* Título principal */
+.content .text h2 {
     color: #fff;
     font-size: 3em;
     margin-bottom: 10px;
     line-height: 2.5em;
     font-weight: 700;
 }
-.content .text h2 span{
+
+/* Destaque no texto do título */
+.content .text h2 span {
     color: #e51e2a;
     font-size: 2.5em;
 }
-.content .text p{
+
+/* Estilo do parágrafo do texto */
+.content .text p {
     color: #fff;
 }
-.content .text a{
+
+/* Link de chamada para ação */
+.content .text a {
     display: inline-block;
     margin-top: 40px;
     padding: 9px 20px;
@@ -90,10 +116,14 @@ a:hover {
     border-radius: 40px;
     transition: 0.3s ease-in-out;
 }
-.content .text a:hover{
+
+/* Hover no link de ação */
+.content .text a:hover {
     transform: translate(-10px);
-     }
-.icons{
+}
+
+/* Estilo dos ícones de redes sociais */
+.icons {
 position:absolute;
 bottom:40px;
 left:100px;
@@ -101,10 +131,14 @@ display:flex;
 justify-content:center;
 align-items:center;
 }  
-.icons li{
+
+/* Estilo dos itens dos ícones */
+.icons li {
 list-style:none;
-        }
-.icons li a{
+}
+
+/* Estilo dos links dos ícones */
+.icons li a {
 display:inline-block;
 margin-left:45px;
 background:#222;
@@ -114,32 +148,45 @@ display:flex;
 justify-content:center;
 border-radius:50%;
 transition: 0.3s ease-in-out;   
-        }
-.icons li a:hover{
+  }
+
+/* Hover nos ícones */
+.icons li a:hover {
 background:#e51e2a;
 transform:translateY(-10px);
   }
-.icons li a img{
+
+/* Estilo das imagens dos ícones */
+.icons li a img {
 filter:invert(1);
 transform:scale(0.5);
   }
-.boxImg{
+
+/* Estilo das imagens do produto */
+.boxImg {
 position:absolute;
 right:0;
 bottom:-40px;
  }
-.boxImg img{
-width:100px;
+
+/* Largura das imagens do produto */
+.boxImg img {
+width:130px;
 }
-.boxImg .img1{
+
+/* Efeito de rotação nas imagens */
+.boxImg .img1 {
   transform: rotate(-15deg);
-        }
-.boxImg .img2{
+}
+
+.boxImg .img2 {
 transform: rotate(5deg);
 }
-.boxImg .img3{
+
+.boxImg .img3 {
 transform: rotate(15deg);
 }
-.boxImg .img4{
+
+.boxImg .img4 {
 transform: rotate(-15deg);
 }
