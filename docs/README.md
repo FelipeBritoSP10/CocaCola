@@ -43,7 +43,7 @@ A landing page da Coca-Cola possui as seguintes funcionalidades:
   
 # Como usar 
 
-## Clonar o Repositório
+**Clonar o repositório**
 
 Primeiro, você precisa clonar o repositório da landing page para seu computador. Execute os seguintes comandos no terminal:
 
