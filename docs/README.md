@@ -40,6 +40,32 @@ A landing page da Coca-Cola possui as seguintes funcionalidades:
 
 4. **Exibição de Imagens de Produtos**:
    - Várias imagens de produtos Coca-Cola são exibidas, proporcionando uma visualização atrativa dos itens. 🥤
+  
+# Como usar 
+
+## Clonar o Repositório
+
+Primeiro, você precisa clonar o repositório da landing page para seu computador. Execute os seguintes comandos no terminal:
+
+1. **Clone o repositório e vá para o diretório:**
+   
+   ```bash
+   git clone https://github.com/FelipeBritoSP10/CocaCola.git
+   cd CocaCola
+   ```
+
+2. **Rodar o projeto localmente**
+
+Abrir o arquivo index.html no navegador:
+
+- Localize o arquivo index.html na pasta do projeto.
+- Clique duas vezes nele ou arraste o arquivo para o navegador de sua escolha (Chrome, Firefox, etc.).
+- Isso abrirá a landing page da Coca-Cola diretamente no seu navegador.
+
+3. **Explorar a landing page**  
+
+Agora que a página está aberta no navegador, você pode navegar pelas seções de produtos, novidades e acessar os links para as redes sociais.
+
 
 # Imagem do projeto 📸
 
