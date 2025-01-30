@@ -56,7 +56,7 @@ Primeiro, você precisa clonar o repositório da landing page para seu computado
 
 2. **Rodar o projeto localmente**
 
-Abrir o arquivo index.html no navegador:
+Depois de clonar e ir para o diretório, abrir o arquivo index.html no navegador:
 
 - Localize o arquivo index.html na pasta do projeto.
 - Clique duas vezes nele ou arraste o arquivo para o navegador de sua escolha (Chrome, Firefox, etc.).
